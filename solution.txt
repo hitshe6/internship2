@@ -1,0 +1,8 @@
+With respect to this collection {_id, name, phone, address, age, sex}
+
+We can search the element using find() with respect to _id
+We can also sort with respect to name and _id so that the find() can get element easily
+
+First we need to analyze the queries to avoid errors and delay in exwcution.
+
+EXAMPLE : db.user.find().sort({name:1,_id:1});
